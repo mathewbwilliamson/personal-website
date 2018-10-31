@@ -1,0 +1,32 @@
+.NavBar {
+    border: 1px black solid;
+    background-color: yellow;
+}
+
+.Header {
+    border: 1px black solid;
+    background-color: pink;
+}
+
+.AboutMe {
+    border: 1px black solid;
+    background-color: yellow;
+}
+
+.MajorProjects {
+    border: 1px black solid;
+    background-color: pink;
+}
+
+.MinorProjects {
+    border: 1px black solid;
+    background-color: yellow;
+}
+.WorkWithMe {
+    border: 1px black solid;
+    background-color: pink;
+}
+.MaPrLeadLifecycle {
+    border: 1px black solid;
+    background-color: red;
+}
