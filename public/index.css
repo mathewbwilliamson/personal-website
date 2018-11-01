@@ -46,13 +46,15 @@
 
 
 body {
-    /* font-family: 'Montserrat', sans-serif; */
-    /* font-family: 'Raleway', sans-serif; */
-    /* font-family: 'Open Sans', sans-serif; */
-    /* font-family: 'Josefin Slab', serif; */
-    /* font-family: 'Titillium Web', sans-serif; */
-    /* font-family: 'Rufina', serif; */
-    font-family: 'Roboto Slab', serif;
+  margin: 0;
+  overflow-x: hidden;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Josefin Slab', serif; */
+  /* font-family: 'Titillium Web', sans-serif; */
+  /* font-family: 'Rufina', serif; */
+  font-family: 'Roboto Slab', serif;
 }
 
 p {
@@ -66,26 +68,36 @@ h1 {
   /* font-family: 'Josefin Slab', serif; */
   /* font-family: 'Amatic SC', cursive; */
   /* font-family: 'PT Serif', serif; */
-  font-family: 'Dosis', sans-serif;
+  /* font-family: 'Dosis', sans-serif; */
   /* font-family: 'Titillium Web', sans-serif; */
-  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   /* font-family: 'Open Sans', sans-serif; */
   font-size: 2rem;
 }
 
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
 .NavBar {
-  border: 1px black solid;
-  background-color: yellow;
+  /* border: 1px black solid; */
+  background-color: #043474;
   display: grid;
   grid-template-columns: 1fr 5fr auto;
   align-items: center;
   justify-content: space-around;
-  padding: 10px 30px 10px 30px;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  right: 0;
+  /* padding: 10px 30px 10px 30px; */
+  /* width: 100vw; */
+  /* position: absolute; */
+  margin: 0 -10.5rem;
+  /* add back section padding (1.5rem) */
+  padding: 0.25rem 1.5rem;
+  margin-top: -10px;
+  /* border has to be solid, not RGBa */
+  /* 9600px or equiv (600rem = 9600/16) */
+  border-left: 10rem solid #043474;
+  border-right: 10rem solid #043474;
 }
 
 .NavBar .name {
@@ -94,10 +106,11 @@ h1 {
 
 .NavBar .name > h1 {
   margin-left: 20px;
+  color: #F4FCFB;
 }
 
 .logo {
-  margin-left: 80px;
+  margin-left: 10px;
   height: 75px;
   width: 150px;
   border: 1px black solid;
@@ -109,18 +122,37 @@ ul.links li {
   list-style: none;
   margin-left: 30px;
   margin-right: auto;
+  color: #F4FCFB;
+}
+
+ul.links a {
+  color: #F4FCFB;
+  text-decoration: none;
 }
 
 .Header {
-  border: 1px black solid;
+  /* border: 1px black solid; */
   background-color: pink;
   height: 200px;
+  background-image: url(../images/bcg_slide-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 300px;
+  width: 100%;
 }
 
 .AboutMe {
-  border: 1px black solid;
+  /* border: 1px black solid; */
   background-color: yellow;
   height: 300px;
+  background-image: url(../images/bcg_slide-3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  width: 100%;
 }
 
 .MajorProjects {
