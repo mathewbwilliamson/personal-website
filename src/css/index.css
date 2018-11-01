@@ -1,62 +1,146 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display');
+/* Shadows Into Light + Raleway */
+@import url('https://fonts.googleapis.com/css?family=Raleway|Shadows+Into+Light');
+/* RALEWAY LIGHT + OPEN SANS REGULAR */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300');
+/* 8 – Raleway and Roboto Slab                                                          LIKE ROBOTO SLAB FOR TEXT*/
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+/* Josefin Slab and Open Sans?                                                          Josefin Slab is okay */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans');
+
+/* 10 – Oswald and EB Garamond */
+/* 9 – Open Sans and Open Sans Condensed */
+/* 7 – Roboto and Roboto Condensed */
+/* 6 – Playfair Display and Source Sans Pro */
+/* 5 – Alegreya and Lato */
+/* 4 – Fjalla One and Noto Sans */
+/* 3 – PT Sans and PT Sans Narrow */
+/* 2 – Josefin Sans and Amatic SC */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+/* 1 – Merriweather and Montserrat */
+/* ROBOTO CONDENSED BOLD + CABIN REGULAR */
+/* ROBOTO BOLD + LORA REGULAR */
+/* RUDA REGULAR + ROBOTO SLAB */
+/* CORMORANT GARAMOND BOLD ITALIC + FIRA SANS REGULAR */
+/* ROBOTO LIGHT + DROID SERIF REGULAR */
+/* Oxygen + Noto */
+/* Arvo + Lato  */
+/* Merriweather + Muli */
+/* Cinzel + Fauna */
+/* Questrial + Alegreya */
+/* Nunito + PT Sans */
+/* Unica + Crimson */
+/* Julius + Monda */
+/* Ovo + Quattrocento */
+/* Slabo + Lato */
+/* Rufina + PT Serif */
+@import url('https://fonts.googleapis.com/css?family=Rufina');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+/* Dosis + Titillium                                                                I like this combo*/
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+/* FUGAZ ONE and Montserrat or Roboto */
+
+/*                                                                                  Combo I like: Dosis / Roboto Slab */
+
+
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Josefin Slab', serif; */
+    /* font-family: 'Titillium Web', sans-serif; */
+    /* font-family: 'Rufina', serif; */
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+  font-size: 1.1rem;
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
-    size: 2rem;
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Shadows Into Light', cursive; */
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Josefin Slab', serif; */
+  /* font-family: 'Amatic SC', cursive; */
+  /* font-family: 'PT Serif', serif; */
+  font-family: 'Dosis', sans-serif;
+  /* font-family: 'Titillium Web', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 2rem;
 }
 
+
 .NavBar {
-    border: 1px black solid;
-    background-color: yellow;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px 30px 10px 30px;
+  border: 1px black solid;
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: 1fr 5fr auto;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 30px 10px 30px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.NavBar .name {
+  text-align: left;
+}
+
+.NavBar .name > h1 {
+  margin-left: 20px;
 }
 
 .logo {
-    height: 75px;
-    width: 150px;
-    border: 1px black solid;
-    background-color: turquoise;
+  margin-left: 80px;
+  height: 75px;
+  width: 150px;
+  border: 1px black solid;
+  background-color: turquoise;
 }
 
 ul.links li {
-    display: inline;
-    list-style: none;
-    margin-left: 30px;
-    margin-right: auto;
+  display: inline;
+  list-style: none;
+  margin-left: 30px;
+  margin-right: auto;
 }
 
 .Header {
-    border: 1px black solid;
-    background-color: pink;
+  border: 1px black solid;
+  background-color: pink;
+  height: 200px;
 }
 
 .AboutMe {
-    border: 1px black solid;
-    background-color: yellow;
+  border: 1px black solid;
+  background-color: yellow;
+  height: 300px;
 }
 
 .MajorProjects {
-    border: 1px black solid;
-    background-color: pink;
+  border: 1px black solid;
+  background-color: pink;
+  height: 200px;
 }
 
 .MinorProjects {
-    border: 1px black solid;
-    background-color: yellow;
+  border: 1px black solid;
+  background-color: yellow;
+  height: 200px;
 }
 .WorkWithMe {
-    border: 1px black solid;
-    background-color: pink;
+  border: 1px black solid;
+  background-color: pink;
+  height: 200px;
 }
 .MaPrLeadLifecycle {
-    border: 1px black solid;
-    background-color: red;
+  border: 1px black solid;
+  background-color: red;
+  height: 200px;
 }
